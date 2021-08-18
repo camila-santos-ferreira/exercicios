@@ -1,9 +1,9 @@
-peso = 0;
-altura = 1.63;
+let peso = 0;
+let altura = 1.63;
 
-imc = peso/Math.pow(altura,2);
+let imc = peso/Math.pow(altura,2);
 
-icmConvert = imc.toFixed(2);
+let icmConvert = imc.toFixed(2);
 
 if(icmConvert > 0.00 && icmConvert < 18.50){
     console.log("IMC: " + icmConvert + "\nClassificação: Magreza" + "\nGrau de obesidade: 0");
