@@ -70,22 +70,19 @@
 // console.log(valorComJuros)
 
 
-// Exercício 4 -------------------------------- Arrumar
-// function calculoMedia(itens) {
+// Exercício 04 
+// function calculoMedia(notas) {
     
-//     somatorio = 0
+//     let somatorio = 0
 
-//     for (i = 0; i < itens.length; i) {
-//         somatorio += itens[i]
+//     for (i = 0; i < notas.length; i++) {
+//         somatorio += notas[i]
 //     }
     
-//     return somatorio / itens.length
+//     return somatorio/notas.length
 // }
 
-// var media = calculoMedia([5,10,5,10,5])
-// console.log(media)
-
-
+// console.log(calculoMedia([5,10,5,10,5]))
 
 
 //Exercício 05
